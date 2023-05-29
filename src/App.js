@@ -30,7 +30,12 @@ function App() {
     getBlockNumber();
   });
 
-  return <div className="App">Block Number: {blockNumber}</div>;
+  return (
+      <div>
+        <div className="App">Block Number: {blockNumber}</div>
+
+      </div>
+  );
 }
 
 export default App;
